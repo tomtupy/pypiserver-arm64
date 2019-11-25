@@ -1,4 +1,4 @@
-FROM arm64v8/alpine:3.8 AS base
+FROM alpine:3.8 AS base
 
 # Install python and modules that can't be installed via pip
 # Delete the uncompiled variants to shave off ~10MB of the docker file
